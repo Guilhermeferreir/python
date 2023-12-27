@@ -2,11 +2,11 @@
     "web": {
         "client_id": "myapp",
         "client_secret": "",
-        "auth_uri": "http://keycloak-develop.celero.mobi./realms/develop/protocol/openid-connect/auth",
-        "token_uri": "http://keycloak-develop.celero.mobi./realms/develop/protocol/openid-connect/token",
-        "issuer": "http://keycloak-develop.celero.mobi./realms/develop",
-        "userinfo_uri": "http://keycloak-develop.celero.mobi./realms/develop/protocol/openid-connect/userinfo",
-        "token_introspection_uri": "http://keycloak-develop.celero.mobi./realms/develop/protocol/openid-connect/token/introspect",
+        "auth_uri": "http://<host_keyclock>./realms/<name_realm>/protocol/openid-connect/auth",
+        "token_uri": "http://<host_keyclock>./realms/<name_realm>/protocol/openid-connect/token",
+        "issuer": "http://<host-keyclock>./realms/<name-realm>/",
+        "userinfo_uri": "http://<host_keyclock>./realms/<name_realm>//protocol/openid-connect/userinfo",
+        "token_introspection_uri": "http://<host-keyclock>./realms/<name-realm>/protocol/openid-connect/token/introspect",
         "redirect_uris": [
           "http://localhost:8080/*"
         ]
