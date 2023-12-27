@@ -10,7 +10,7 @@ app.config.update(
         OIDC_INTROSPECTION_AUTH_METHOD='client_secret_post',
         OIDC_TOKEN_TYPE_HINT='access_token',
         OIDC_SCOPES=['openid','email','profile'],
-        OIDC_OPENID_REALM='develop'
+        OIDC_OPENID_REALM='<name_realm>'
     )
 
 oidc = OpenIDConnect(app)
